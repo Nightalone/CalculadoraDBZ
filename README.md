@@ -2,6 +2,6 @@
 
 **Link para acessar** 👇
 
-https://nightalone.github.io/portfolio/
+https://nightalone.github.io/CalculadoraDBZ/
 
 #
