@@ -1,0 +1,238 @@
+body{
+    background-color: dodgerblue;
+
+}
+
+
+
+.esfera1{
+    background-image: url("../imagens/esfera1.jpeg");
+    background-size: 100px 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 205px;
+    top: 90px;
+    animation: esfera1 3s 2 alternate;
+}
+
+@keyframes esfera1{
+    from{top: 90px; }
+    to{left: 205px; top: 274px;}
+}
+
+.esfera2{
+    background-image: url("../imagens/esfera2.jpeg");
+    background-size: 100px 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 346px;
+    top: 194px;
+    animation: esfera2 3s 4 alternate;
+}
+
+@keyframes esfera2{
+    from{left: 346px; top: 194px;}
+    to{left: 205px; top: 274px;}
+}
+
+.esfera3{
+    background-image: url("../imagens/esfera3.jpeg");
+    background-size: 100px 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 346px;
+    top: 370px;
+    animation: esfera3 3s 6 alternate;
+}
+
+@keyframes esfera3{
+    from{left: 346px; top: 370px;}
+    to{left: 205px; top: 274px;}
+}
+
+.esfera4{
+    background-image: url("../imagens/esfera4.png");
+    background-size: 100px 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 205px;
+    top: 458px;
+    animation: esfera4 3s 8 alternate;
+}
+
+@keyframes esfera4{
+    from{left: 205px; top: 458px;}
+    to{left: 205px; top: 274px;}
+}
+
+.esfera5{
+    background-image: url("../imagens/esfera5.jpeg");
+    background-size: 100px 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 70px;
+    top: 370px;
+    animation: esfera5 3s 10 alternate;
+}
+
+@keyframes esfera5{
+    from{left: 70px; top: 370px;}
+    to{left: 205px; top: 274px;}
+}
+
+.esfera6{
+    background-image: url("../imagens/esfera6.jpeg");
+    background-size: 104px 102px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 70px;
+    top: 194px;
+    animation: esfera6 3s 12 alternate;
+}
+
+@keyframes esfera6{
+    from{left: 70px; top: 194px;}
+    to{left: 205px; top: 274px;}
+}
+
+.esfera7{
+    background-image: url("../imagens/esfera7.jpeg");
+    background-size: 87px 87px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 205px;
+    top: 274px;
+}
+
+.calculadora{
+    width: 30%;
+    margin: 52px auto 0 auto ;
+    background-image: url("../imagens/vegeta.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26em 100%;
+    height: 550px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px 1px;
+    text-align: center;
+}
+
+p{
+    width: 21em;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: 2em auto;
+    line-height: 32px;
+}
+
+.botoes{
+    width: 90%;
+    margin: 0 auto;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 2px 2px;
+    border-radius: 5px;
+    margin: 24px 12px 6px 12px ;
+}
+
+button:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.botoesInferiores{
+    position: relative;
+    right: 38px;
+}
+
+#igual{
+    position: absolute;
+    height: 128px;
+    right: 33rem;
+}
+
+#zero{
+    position: relative;
+    right: 38px;
+    width: 128px;
+}
+
+#ponto{
+    position: relative;
+    right: 38px;  
+}
+
+.dark{
+    position: absolute;
+    left: 1043px;
+    top: 16em;
+    width: 146px;
+    height: 57px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 2px 2px;
+    border-radius: 5px;
+}
+
+.dark:hover{
+    color: #fff;
+}
+
+a{
+    position: absolute;
+    left: 66em;
+    top: 20em;
+    padding: 20px 55px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 2px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+}
