@@ -2,7 +2,9 @@
 
 <br>
 
-Calculadora feita com HTML, CSS e Javascript, com animações e troca de personagens.
+<p>Calculadora feita com HTML, CSS e Javascript, com animações e troca de personagens.</p>
+<p>Temos dois botões no lado direito da calculadora, o botão Dark altera para modo escuro e<br>
+  o botão Vegeta altera o personagem.</p>
 
 <br>
 
