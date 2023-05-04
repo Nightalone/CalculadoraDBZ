@@ -10,7 +10,7 @@
 
 **Link para acessar** 👇
 
-https://nightalone.github.io/CalculadoraDBZ/
+calculadora-dbz.vercel.app
 
 #
 
