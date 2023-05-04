@@ -10,7 +10,7 @@
 
 **Link para acessar** 👇
 
-calculadora-dbz.vercel.app
+https://calculadora-dbz.vercel.app/
 
 #
 
