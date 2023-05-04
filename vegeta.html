@@ -9,42 +9,55 @@
     
     <main>
 
-        <div class="esfera1"></div>
-        <div class="esfera2"></div>
-        <div class="esfera3"></div>
-        <div class="esfera4"></div>
-        <div class="esfera5"></div>
-        <div class="esfera6"></div>
-        <div class="esfera7"></div>
-
+        <div class="esfera">
+            <div class="esfera1"></div>
+            <div class="esfera2"></div>
+            <div class="esfera3"></div>
+            <div class="esfera4"></div>
+            <div class="esfera5"></div>
+            <div class="esfera6"></div>
+            <div class="esfera7"></div>
+        </div>
+        
         <div class="calculadora">
             
             <br><p id="tela"></p>
-            <div class="botoes">
-                <button onclick="limpar()">C</button>
-                <button onclick="apagar()">&lt</button>
-                <button onclick="inserir('/')">/</button>
-                <button onclick="inserir('*')">X</button>
-                <button onclick="inserir('7')">7</button>
-                <button onclick="inserir('8')">8</button>
-                <button onclick="inserir('9')">9</button>
-                <button onclick="inserir('-')">-</button>
-                <button onclick="inserir('4')">4</button>
-                <button onclick="inserir('5')">5</button>
-                <button onclick="inserir('6')">6</button>
-                <button onclick="inserir('+')">+</button>
-                <button onclick="inserir('1')" class="botoesInferiores">1</button>
-                <button onclick="inserir('2')" class="botoesInferiores">2</button>
-                <button onclick="inserir('3')" class="botoesInferiores">3</button>
-                <button onclick="resultado()" id="igual">=</button>
-                <button onclick="inserir('0')" id="zero">0</button>
-                <button onclick="inserir('.')" id="ponto">.</button>
+            <div class="botoesCalculadora">
+                <div>
+                    <button onclick="limpar()" class="c">C</button>
+                    <button onclick="inserir('/')">/</button>
+                    <button onclick="inserir('*')">X</button>
+                </div>
+                <div>
+                    <button onclick="inserir('7')">7</button>
+                    <button onclick="inserir('8')">8</button>
+                    <button onclick="inserir('9')">9</button>
+                    <button onclick="inserir('-')">-</button>
+                </div>
+                <div>
+                    <button onclick="inserir('4')">4</button>
+                    <button onclick="inserir('5')">5</button>
+                    <button onclick="inserir('6')">6</button>
+                    <button onclick="inserir('+')">+</button>
+                </div>
+                <div>
+                    <button onclick="inserir('1')">1</button>
+                    <button onclick="inserir('2')">2</button>
+                    <button onclick="inserir('3')">3</button>
+                    <button onclick="inserir('.')">.</button>
+                </div>
+                <div>
+                    <button onclick="inserir('0')" class="zero">0</button>
+                    <button onclick="resultado()" class="igual">=</button>
+                </div>
             </div>
 
         </div>
 
-        <button class="dark" onclick="modoEscuro()">💡 Dark</button>
-        <a href="index.html">Goku</a>
+        <div class="botoes">
+            <button class="dark" onclick="modoEscuro()">💡 Dark</button>
+            <a href="index.html">Goku</a>
+        </div>
 
     </main>
 
