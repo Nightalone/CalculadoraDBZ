@@ -16,6 +16,5 @@ https://calculadora-dbz.vercel.app/
 
 <br>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/90106463/220816597-ca6d5fd3-7bdd-44db-ab70-f6c479356336.png" width="700px"/>
-</div>
+![image](https://github.com/Nightalone/CalculadoraDBZ/assets/90106463/58e584e1-05f5-426e-90cb-2e1b047c3653)
+
