@@ -7,14 +7,15 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-between;
+    
 }
 
 .esfera{
-    width: 26em;
+    width: 28em;
     height: 37em;
-    margin: 0 auto 0 auto ;
 }
+
+
 
 .esfera1{
     background-image: url("../imagens/esfera1.jpeg");
@@ -210,13 +211,12 @@ button:hover{
 }
 
 .botoes{
-    width: 20em;
+    width: 28em;
     height: 37em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 0 auto ;
 }
 
 .dark{
@@ -243,4 +243,10 @@ a{
 
 a:hover{
     color: dodgerblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .esfera{ width: 100%;}
+    .calculadora{ width: 100%;}
+    .botoes{ width: 100%; }
 }
